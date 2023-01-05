@@ -1,0 +1,41 @@
+<div style="width: 100%">
+  <div>
+    <svg width="100%" viewBox="0 0 1000 150">
+      <circle
+        cx="15"
+        cy="50"
+        r="10"
+        stroke="#d7dadd"
+        stroke-width="3"
+        fill="white"
+      />
+      <line
+        x1="25"
+        y1="50"
+        x2="975"
+        y2="50"
+        stroke="#e3e3e3"
+        stroke-width="6"
+      />
+      <circle
+        cx="983"
+        cy="50"
+        r="10"
+        stroke="#d7dadd"
+        stroke-width="3"
+        fill="white"
+      />
+      <text class="city" x="0" y="20" font-size="24">{{ ride.from }} Hbf</text>
+      <text class="city" x="100%" y="20" font-size="24" text-anchor="end">
+        {{ ride.to }} Hbf
+      </text>
+      <text class="duration" x="50%" y="35" font-size="16" text-anchor="middle">
+        {{ duration }}
+      </text>
+      <text class="time" x="0" y="90" font-size="18">{{ starttime }} Uhr</text>
+      <text class="time" x="100%" y="90" font-size="18" text-anchor="end">
+        {{ endtime }} Uhr
+      </text>
+    </svg>
+  </div>
+</div>

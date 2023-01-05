@@ -1,0 +1,8 @@
+<app-ride-filter-button
+  *ngFor="let button of rideFilterButtons; let i = index"
+  [type]="button.type"
+  [filter]="button.filter"
+  [active]="activeButtonIndex === i"
+  (click)="onClick(button.type, button.filter, i)"
+>
+</app-ride-filter-button>

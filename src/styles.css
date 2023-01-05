@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'dbscreenhead-black';
+    src: url('./assets/fonts/dbscreenhead-black.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'dbscreenhead-light';
+    src: url('./assets/fonts/dbscreenhead-light.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'dbscreenhead-regular';
+    src: url('./assets/fonts/dbscreenhead-regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'dbscreensans-bold';
+    src: url('./assets/fonts/dbscreensans-bold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'dbscreensans-digitalregular';
+    src: url('./assets/fonts/dbscreensans-digitalregular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'dbscreensans-medium';
+    src: url('./assets/fonts/dbscreensans-medium.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'dbscreensans-regular';
+    src: url('./assets/fonts/dbscreensans-regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'dbscreensans-semibold';
+    src: url('./assets/fonts/dbscreensans-semibold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'dbscreensanscond-bold';
+    src: url('./assets/fonts/dbscreensanscond-bold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'dbscreensanscond-regular';
+    src: url('./assets/fonts/dbscreensanscond-regular.woff') format('woff');
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

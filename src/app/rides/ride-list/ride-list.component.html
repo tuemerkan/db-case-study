@@ -1,0 +1,14 @@
+<div class="row mb-5">
+  <div class="col">
+    <app-ride-filter></app-ride-filter>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <app-ride-item
+      *ngFor="let rideEl of rides; let i = index"
+      [ride]="rideEl"
+      [index]="i"
+    ></app-ride-item>
+  </div>
+</div>
